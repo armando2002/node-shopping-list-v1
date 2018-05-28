@@ -10,6 +10,9 @@ const bodyParser = require('body-parser');
 // interact with in our GET endpoint
 const {ShoppingList} = require('./models');
 
+// import Recipes model
+const {Recipes} = require('./models');
+
 const jsonParser = bodyParser.json();
 const app = express();
 
